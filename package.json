@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "start": "node server/serrver.js",
+      "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+    "engines":{
+        "node": "10.9.0"
+    },
   "author": "",
   "license": "ISC",
   "dependencies": {
